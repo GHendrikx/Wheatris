@@ -5736,7 +5736,7 @@ MonoBehaviour:
   endPanel: {fileID: 1080990773}
   aiWin: {fileID: 521655040}
   playerWin: {fileID: 618347921}
-  restartButton: {fileID: 0}
+  restartButton: {fileID: 351715870}
 --- !u!1001 &367241946
 PrefabInstance:
   m_ObjectHideFlags: 0
