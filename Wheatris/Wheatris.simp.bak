@@ -1,0 +1,1912 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="11.91" multi-file="no" uid="simpb091ecbec602425ca2a1075a91911baf">
+  <meta>
+    <name>Project</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="UmlClass" />
+        <value>31</value>
+      </counter>
+      <counter>
+        <item-type stereotype="interface" type-id="class" type="UmlClass" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="collaboration" type="UmlCollaboration" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type stereotype="enumeration" type-id="enumeration" type="UmlEnumeration" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="initial-node" type="UmlInitialNode" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="activity" type="UmlActivity" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="swimlane" type="UmlSwimlane" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="fork" type="UmlFork" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="action" type="UmlAction" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="class" type="UmlClass" />
+        <value>34</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="UmlGeneralization" />
+        <value>23</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="UmlAssociation" />
+        <value>21</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="UniversalConnector" />
+        <value>10</value>
+      </counter>
+      <counter>
+        <item-type type-id="dependency" type="UmlDependency" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="collaboration" type="UmlCollaboration" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="comment" type="UmlComment" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="constraint" type="UmlConstraint" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="enumeration" type="UmlEnumeration" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="realization" type="UmlRealization" />
+        <value>8</value>
+      </counter>
+      <counter>
+        <item-type type-id="" type="AbstractElementGroup" />
+        <value>89</value>
+      </counter>
+      <counter>
+        <item-type type-id="initial-node" type="UmlInitialNode" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="activity" type="UmlActivity" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="swimlane" type="UmlSwimlane" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="fork" type="UmlFork" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="control-flow" type="UmlControlFlow" />
+        <value>11</value>
+      </counter>
+      <counter>
+        <item-type type-id="decision" type="UmlDecision" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="action" type="UmlAction" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>2</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlActivityDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>115</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.AttributeField</type>
+        <value>114</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.EnumerationItemField</type>
+        <value>5</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-3e0eed94c6b143319376cd7baa7bc1e0" name="" task-id-sequence="0">
+    <working-schedule uid="ws-b4514dd1a7de4ca0962f2edff5f79d23" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="P7d950b2d373c484aaf7e0158b8eefd5a">
+        <first-name>Geoffrey</first-name>
+        <last-name>Hendrikx</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-1b28f7e7f5e340ae85571d539ee65e98" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-2f41447a0d0f401d80d48f354c058a3d" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="void" tid="" name="void" description="" />
+      <type id="Block" tid="" name="Block" description="" />
+      <type id="T" tid="" name="T" description="" />
+      <type id="Action" tid="" name="Action" description="" />
+      <type id="Class:7944226f7ca0429abfd9d40e65f8cf3e" tid="" name="BlockGenerator" description="" class-ref="7944226f7ca0429abfd9d40e65f8cf3e" />
+      <type id="Transform" tid="" name="Transform" description="" />
+      <type id="Vector2" tid="" name="Vector2" description="" />
+      <type id="Rigidbody" tid="" name="Rigidbody" description="" />
+      <type id="float" tid="" name="float" description="" />
+      <type id="bool" tid="" name="bool" description="" />
+      <type id="Collision" tid="" name="Collision" description="" />
+      <type id="delegate" tid="" name="delegate" description="" />
+      <type id="BlockCallback" tid="" name="BlockCallback" description="" />
+      <type id="event RotateMovement" tid="" name="event RotateMovement" description="" />
+      <type id="public" tid="" name="public" description="" />
+      <type id="Renderer" tid="" name="Renderer" description="" />
+      <type id="Material[]" tid="" name="Material[]" description="" />
+      <type id="event HorizontalMovement()" tid="" name="event HorizontalMovement()" description="" />
+      <type id="event RotateMovement (float rotate)" tid="" name="event RotateMovement (float rotate)" description="" />
+      <type id="event HorizontalMovement(float movement)" tid="" name="event HorizontalMovement(float movement)" description="" />
+      <type id="IStateMachine" tid="" name="IStateMachine" description="" />
+      <type id="IStateMachine[] (IStateMachine)" tid="" name="IStateMachine[] (IStateMachine)" description="" />
+      <type id="Class:1b93a3c4f5484d5483f56a622df59006" tid="" name="States" description="" class-ref="1b93a3c4f5484d5483f56a622df59006" />
+      <type id="List&lt;IStateMachine&gt;" tid="" name="List&lt;IStateMachine&gt;" description="" />
+      <type id="delegate void" tid="" name="delegate void" description="" />
+      <type id="event" tid="" name="event" description="" />
+      <type id="SwitchState" tid="" name="SwitchState" description="" />
+      <type id="GameObject" tid="" name="GameObject" description="" />
+      <type id="Slider" tid="" name="Slider" description="" />
+      <type id="Toggle" tid="" name="Toggle" description="" />
+      <type id="Button" tid="" name="Button" description="" />
+      <type id="StateMachine" tid="" name="StateMachine" description="" />
+      <type id="List&lt;IState&gt;" tid="" name="List&lt;IState&gt;" description="" />
+      <type id="int" tid="" name="int" description="" />
+      <type id="int (int)" tid="" name="int (int)" description="" />
+      <type id="event SwitchState" tid="" name="event SwitchState" description="" />
+      <type id="List&lt;Button&gt;" tid="" name="List&lt;Button&gt;" description="" />
+      <type id="Text" tid="" name="Text" description="" />
+      <type id="List" tid="" name="List" description="" />
+      <type id="protected" tid="" name="protected" description="" />
+      <type id="event ForceBlock" tid="" name="event ForceBlock" description="" />
+      <type id="int[]" tid="" name="int[]" description="" />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="p329c76f9d2e64e838a177885d995944c_499375832" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>09/03/2019 13:18:29</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="pd1b8ac8af94747788bfb5a6283966bbf_725857077" name="ClassDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="-213,121" zoom="0.8">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>09/03/2019 13:18:29</creation-date>
+          <change-date>09/18/2019 15:30:51</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="7e0f513c1ba64784a88abe03ac725b49" cid="C009" type="class" name="InputManager" style-class="Emphasis" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/03/2019 13:33:20">
+            <style class="Emphasis" />
+            <attributes>
+              <attribute id="a41628ec1dcff47df8b4e7993a709620c122" cid="ELEM031" name="HorizontalMovement(float movement)" creation-date="01/01/0001 00:00:00" type="public" type-id="public" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-eec906c0-b424-4024-bc8a-bfc878119ccf" />
+                </source-codes>
+              </attribute>
+              <attribute id="af25c38c3011346b2bc42775df8e72b2c52" cid="ELEM032" name="_horizontalMovement" creation-date="01/01/0001 00:00:00" type="event HorizontalMovement(float movement)" type-id="event HorizontalMovement(float movement)" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-cff05ea5-84ef-42c9-a9fe-23aa4b62cdc0" />
+                </source-codes>
+              </attribute>
+              <attribute id="a2f2b9544c7e843f5b229322ba3f6d4a2784" cid="ELEM033" name="RotateMovement(float rotate)" creation-date="01/01/0001 00:00:00" type="delegate" type-id="delegate" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-ef23f0af-658e-4502-961b-549facd74d35" />
+                </source-codes>
+              </attribute>
+              <attribute id="a37a14524c5c14dadbb4150ddf2a7fb19492" cid="ELEM034" name="_rotateMovement" creation-date="01/01/0001 00:00:00" type="event RotateMovement (float rotate)" type-id="event RotateMovement (float rotate)" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-2543a1e0-292d-4417-9513-3603b9cbe38b" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="od04dae5a83b9451ca02438560b3914b2722" cid="ELEM013" name="FixedUpdate" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="f8f24b080a4e494c899b41a882802321" cid="C010" type="class" name="Singleton&lt;T&gt;" style-class="Emphasis" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/03/2019 13:42:45">
+            <style class="Emphasis" />
+            <attributes>
+              <attribute id="a576d1e5f2b0f459aa77ed107020ff5f9411" cid="ELEM006" name="Instance" creation-date="01/01/0001 00:00:00" type="T" type-id="T" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-0c9e8fcc-22e6-4130-935b-290077a366e1" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o91c6731a80d24197870d6e565ef480ed584" cid="ELEM007" name="Awake" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="protected" virtual="true">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="8f45f56c92094254b9bcdd07e8a654d0" cid="GNR007" type="generalization" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/03/2019 13:43:26" from="7e0f513c1ba64784a88abe03ac725b49" to="f8f24b080a4e494c899b41a882802321" />
+          <item id="c68934482a3846b8bb44b05ada862bd5" cid="C011" type="class" name="Block" style-class="Emphasis" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/03/2019 13:46:55">
+            <style class="Emphasis" />
+            <attributes>
+              <attribute id="a70b2701b53e646729edef96ef484f1eb35" cid="ELEM021" name="myRb" creation-date="01/01/0001 00:00:00" type="Rigidbody" type-id="Rigidbody" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-e179a8b9-54d8-4d88-8073-2f4568419197" />
+                </source-codes>
+              </attribute>
+              <attribute id="a17eded641e0d45d1aba039752045237d650" cid="ELEM022" name="_rotateMultiplier" creation-date="01/01/0001 00:00:00" type="float" type-id="float" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-5312a78f-31d9-424a-ad0a-5f912862801d" />
+                </source-codes>
+              </attribute>
+              <attribute id="aa682f52f87074b01a61254ceb6b678f3817" cid="ELEM023" name="_movementMultiplier" creation-date="01/01/0001 00:00:00" type="float" type-id="float" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-9af4dbba-4bc1-4bb5-a6b6-217971470764" />
+                </source-codes>
+              </attribute>
+              <attribute id="a975db12384d44e868a80af1f033b7425901" cid="ELEM024" name="_gravityModifier" creation-date="01/01/0001 00:00:00" type="float" type-id="float" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-f6e4709b-b785-4a1c-adc5-a3ad3e3d0689" />
+                </source-codes>
+              </attribute>
+              <attribute id="aa610710de7344f599bcfc9b1620ed462563" cid="ELEM035" name="BlockCallBack(Block b)" creation-date="01/01/0001 00:00:00" type="delegate" type-id="delegate" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-470f524e-84ae-43e0-b483-affa197bc9a6" />
+                </source-codes>
+              </attribute>
+              <attribute id="ab38038e9185f49e7b9fe2366a669e817446" cid="ELEM036" name="_onHitGround" creation-date="01/01/0001 00:00:00" type="BlockCallback" type-id="BlockCallback" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-d398fa09-3a23-4608-a2bc-6c28cf72c4fb" />
+                </source-codes>
+              </attribute>
+              <attribute id="acf755936d0384b05954c0d63686eef68333" cid="ELEM037" name="Hitpoints" creation-date="01/01/0001 00:00:00" type="float" type-id="float" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-1491b1d3-0e84-49d1-856b-94780a7ce1fc" />
+                </source-codes>
+              </attribute>
+              <attribute id="a800271cbc59a44cb95e79e76b27a50c9302" cid="ELEM038" name="_renderer" creation-date="01/01/0001 00:00:00" type="Renderer" type-id="Renderer" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-20b34353-eb56-41fa-b1a8-61a5be3901e8" />
+                </source-codes>
+              </attribute>
+              <attribute id="a8a0de83916cf49a89654d8b3b30ba23d13" cid="ELEM039" name="_materials" creation-date="01/01/0001 00:00:00" type="Material[]" type-id="Material[]" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-ab1ac9ed-b5a7-4e16-abda-7c7ff7235c01" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o3f048188de244d84ba12a21c073b658752" cid="ELEM009" name="Fall" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oc155ea59a0314e79afc7895b3aae8a11750" cid="ELEM010" name="Rotate" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o2b0a29a4c2694bb69281877b2c42c0b8442" cid="ELEM011" name="Move" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o555ebd522e724bf19329393184cb0016398" cid="ELEM026" name="Start" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="protected" abstract="true">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o1407f76fd70e42869130aa45d808fe01932" cid="ELEM027" name="Update" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="protected">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oee06e722184e47dc8c5ab5a5c9bb0d8c522" cid="ELEM028" name="OnCollisionEnter" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p1f713870e39a4c51b6ca10080f0fb6e0" name="coll" type="Collision" type-id="Collision" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o5d8875a582a24158b85e10fcf430da79510" cid="ELEM040" name="GetDamage" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="paaa7ce8e878f455d969c7e6913b0f3a5" name="damage" type="float" type-id="float" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o73dcf27bd8134215a7e6e89c85a93868945" cid="ELEM112" name="OnBecameInvisible" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="protected" abstract="true">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="d0d2689f654b4443967ac888f87f9315" cid="REL004" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/03/2019 13:49:25" from="c68934482a3846b8bb44b05ada862bd5" to="7e0f513c1ba64784a88abe03ac725b49">
+            <relation from="c68934482a3846b8bb44b05ada862bd5" to="7e0f513c1ba64784a88abe03ac725b49">
+              <start-role id="umlar-8832c7c4-466c-4627-b875-e430e0761ea6" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-74fcab55-2ace-4d02-89b4-ceeb703489ad" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="42d623ec7d1346b8b25c9e6b7b33c2e3" cid="C013" type="class" name="MonoBehaviour" style-class="Emphasis" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/03/2019 14:14:51">
+            <style class="Emphasis" />
+          </item>
+          <item id="3614c2603ce0486c856ff5a1fc3a822d" cid="GNR008" type="generalization" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/03/2019 14:15:38" from="c68934482a3846b8bb44b05ada862bd5" to="42d623ec7d1346b8b25c9e6b7b33c2e3" />
+          <item id="dce9833aa32d4d15ae344bf4f31d8f73" cid="GNR009" type="generalization" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/03/2019 14:15:50" from="f8f24b080a4e494c899b41a882802321" to="42d623ec7d1346b8b25c9e6b7b33c2e3" />
+          <item id="7944226f7ca0429abfd9d40e65f8cf3e" cid="C017" type="class" name="BlockGenerator" style-class="Emphasis" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/03/2019 14:47:29">
+            <style class="Emphasis" />
+            <attributes>
+              <attribute id="a71dca0cb3ea343b1b7509f043a982a6d475" cid="ELEM071" name="amountOfAIBlocks" creation-date="01/01/0001 00:00:00" type="int" type-id="int" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-02ad7dad-f7c1-4347-8b6a-8642dbfa5254" />
+                </source-codes>
+              </attribute>
+              <attribute id="a3adf46bd217547f5917d616eae34039d156" cid="ELEM073" name="amountOfPlayerBlocks" creation-date="01/01/0001 00:00:00" type="int (int)" type-id="int (int)" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-aa834c98-b3e8-4dcb-8161-957a0c6fbf84" />
+                </source-codes>
+              </attribute>
+              <attribute id="a0b9b1b1d7b624379a266d5facd32a89a385" cid="ELEM092" name="delay" creation-date="01/01/0001 00:00:00" type="float" type-id="float" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-a7176e6d-6714-4c97-82b4-8ddc138fde81" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o07f02195b5b84a27b8b5606ab97e2698220" cid="ELEM029" name="Start" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oabcc3629c62248b7b2f841fa0cbcfef8871" cid="ELEM017" name="GenerateNewBlock&lt;T&gt;" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o1722392846d744208f7ec494c2bf97ed427" cid="ELEM030" name="BlockHitGround" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="p4c46ab6f1bff436cbd929fbfe22300b7" name="block" type="Block" type-id="Block" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="ac8f891b90a94e9088142da4cc1f939a" cid="REL008" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/05/2019 20:08:20" from="7944226f7ca0429abfd9d40e65f8cf3e" to="c68934482a3846b8bb44b05ada862bd5">
+            <relation from="7944226f7ca0429abfd9d40e65f8cf3e" to="c68934482a3846b8bb44b05ada862bd5">
+              <start-role id="umlar-89e896b5-86d0-4c68-8ddc-811842b91847" name="" navigability="" association-type="composition" visibility="private" />
+              <end-role id="umlar-33f76785-cb6b-4a0a-aa15-938d684dd654" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="f082cb6901044063bb02521e7e2bd6e7" cid="GNR012" type="generalization" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/05/2019 20:13:00" from="7944226f7ca0429abfd9d40e65f8cf3e" to="42d623ec7d1346b8b25c9e6b7b33c2e3" />
+          <item id="827f985d75bb4b6ba6689ca67bcffffb" cid="C019" type="class" name="IDamagable" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/05/2019 20:03:30">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <attributes>
+              <attribute id="a30ddf8a9192147a781a1534e6864c93812" cid="ELEM041" name="Hitpoints" creation-date="01/01/0001 00:00:00" type="float" type-id="float" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-fa5de834-8342-4739-b5c5-c6b4d46e0dc9" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o8a2e3bce08514685b4edda02a724d256993" cid="ELEM042" name="GetDamage" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="p7a2d33f6590a4221b416f3112a786130" name="hitpoints" type="float" type-id="float" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="e0f485a033eb41458138d39cd5683862" cid="REA006" type="realization" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 10:41:42" from="c68934482a3846b8bb44b05ada862bd5" to="827f985d75bb4b6ba6689ca67bcffffb" />
+          <item id="di395e403a25224731b63f4a942a004a6e3453" cid="C020" type="class" name="Statemachine" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/10/2019 12:35:17">
+            <attributes>
+              <attribute id="abd70452e4ecf445784c06432ac25e4a0722" cid="ELEM043" name="currentState" creation-date="01/01/0001 00:00:00" type="IStateMachine" type-id="IStateMachine" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-31dda20d-37c1-4e46-8b11-19724ebc2fe9" />
+                </source-codes>
+              </attribute>
+              <attribute id="ae6e6c64e186b43f698beadb0d6943509580" cid="ELEM048" name="states" creation-date="01/01/0001 00:00:00" type="IStateMachine[] (IStateMachine)" type-id="IStateMachine[] (IStateMachine)" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-583dbe92-4fd8-4f00-be35-d0136ea6ae99" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o962cf72a96b8474388c5ed866e5984e6613" cid="ELEM044" name="SwitchState" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="pfdb2e5ab25324dd0bda848b436ca916a" name="_nextState" type="States" type-id="Class:1b93a3c4f5484d5483f56a622df59006" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o6d87fd5782764e0cb8e4822d103d78b6906" cid="ELEM049" name="StateMachine" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p8be100c353964cb18c344424075f8dc6" name="states" type="List&lt;IStateMachine&gt;" type-id="List&lt;IStateMachine&gt;" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="diec77920b21b64a8bb3e57387fc8a48783453" cid="C021" type="class" name="IState" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/10/2019 12:36:41">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <attributes>
+              <attribute id="aad5eecc89bb14143ac5361a8a7d29c51836" cid="ELEM050" name="SwitchState" creation-date="01/01/0001 00:00:00" type="delegate void" type-id="delegate void" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-819909d2-2f83-4c70-82a0-9a22af43092e" />
+                </source-codes>
+              </attribute>
+              <attribute id="ad52ce2892a3a439cac103773d42fe625124" cid="ELEM051" name="switchState" creation-date="01/01/0001 00:00:00" type="event" type-id="event" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-25b592f1-b7ad-43a4-a2e2-5d590e5d9d0e" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="ofe066453013c431d8ec49f1191f367b4187" cid="ELEM045" name="Enter" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="odb7321624e72425c9c99e7b744c98022467" cid="ELEM047" name="Exit" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="di5ffaa712dddd4e1a8c2bdb70a6682f4e3453" cid="E001" type="enumeration" name="States" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/10/2019 15:34:07">
+            <stereotypes>
+              <stereotype name="enumeration" />
+            </stereotypes>
+            <enumeration-items>
+              <enumeration-item id="a45507ad657884ee3bb1d6f8f796b10ac613" cid="ELEM001" name="MainMenuState" creation-date="01/01/0001 00:00:00" />
+              <enumeration-item id="a9b0afaf707ac49f2857486a6b68fce40399" cid="ELEM002" name="PlayState" creation-date="01/01/0001 00:00:00" />
+              <enumeration-item id="a4ce6f749e95a4f1185960cd8377982d6219" cid="ELEM003" name="OptionState" creation-date="01/01/0001 00:00:00" />
+              <enumeration-item id="a2d23a8da35af477a888e6300bbb3bd99893" cid="ELEM004" name="ExitState" creation-date="01/01/0001 00:00:00" />
+            </enumeration-items>
+          </item>
+          <item id="di49406ff6f99d4ae197344e7b42b4c2243453" cid="REL009" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/10/2019 15:38:30" from="di5ffaa712dddd4e1a8c2bdb70a6682f4e3453" to="di395e403a25224731b63f4a942a004a6e3453">
+            <relation from="di5ffaa712dddd4e1a8c2bdb70a6682f4e3453" to="di395e403a25224731b63f4a942a004a6e3453">
+              <start-role id="umlar-dc6975f8-772a-44a5-9530-ba680a15c9b9" name="" navigability="" association-type="composition" visibility="private" />
+              <end-role id="umlar-460d7157-f8a2-48e4-aa4d-dab41a54b949" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di9d9e35ebe2b947e6b358e11ba31af8d13453" cid="C024" type="class" name="PlayState" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/10/2019 15:42:55">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes>
+              <attribute id="aeff7a91cc6144738876e2d3179f2ebcd944" cid="ELEM053" name="switchState" creation-date="01/01/0001 00:00:00" type="SwitchState" type-id="SwitchState" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-058c1aac-7e12-469d-8d28-f093d221e347" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o58d53dba0aad4e6192d553fd4696f07f556" cid="ELEM052" name="PlayState" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o7649f1e5b6e14aeea5cb987ac7698d9a555" cid="ELEM054" name="Enter" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="package">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o69099111e57449518dc334e1531ec06b112" cid="ELEM055" name="Exit" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="di00e9c6fe0d8a42d5a6c7ec70d12ac6253453" cid="REA002" type="realization" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/10/2019 15:46:13" from="dibba22414fd87476eaddd81d8bbbf68eb3453" to="diec77920b21b64a8bb3e57387fc8a48783453" />
+          <item id="di3df1e25d68234fc1bf38415d330f7b383453" cid="REA003" type="realization" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/10/2019 15:46:25" from="did74b94cfeb2345749289731bb7297c6a3453" to="diec77920b21b64a8bb3e57387fc8a48783453" />
+          <item id="di81fff43e55b44a6e8ae422067ba65e383453" cid="REA004" type="realization" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/10/2019 15:46:32" from="di9d9e35ebe2b947e6b358e11ba31af8d13453" to="diec77920b21b64a8bb3e57387fc8a48783453" />
+          <item id="did74b94cfeb2345749289731bb7297c6a3453" cid="C024" type="class" name="ExitState" style-class="" visibility="package" change-tracking-state="added" creation-date="09/10/2019 15:42:55">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes>
+              <attribute id="aeff7a91cc6144738876e2d3179f2ebcd944" cid="ELEM053" name="switchState" creation-date="01/01/0001 00:00:00" type="SwitchState" type-id="SwitchState" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-f0d8cd03-7ba4-4816-ad58-8b193e96121c" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o58d53dba0aad4e6192d553fd4696f07f556" cid="ELEM052" name="ExitState" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o7649f1e5b6e14aeea5cb987ac7698d9a555" cid="ELEM054" name="Enter" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="package">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o69099111e57449518dc334e1531ec06b112" cid="ELEM055" name="Exit" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="dibba22414fd87476eaddd81d8bbbf68eb3453" cid="C024" type="class" name="OptionsState" style-class="" visibility="package" change-tracking-state="added" creation-date="09/10/2019 15:42:55">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes>
+              <attribute id="aeff7a91cc6144738876e2d3179f2ebcd944" cid="ELEM053" name="switchState" creation-date="01/01/0001 00:00:00" type="SwitchState" type-id="SwitchState" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-28537ef6-0b8b-4b98-8703-da91b1b53ba2" />
+                </source-codes>
+              </attribute>
+              <attribute id="ad7e3b45ccc7e40aead46c589681483e4475" cid="ELEM056" name="optionsMenu" creation-date="01/01/0001 00:00:00" type="GameObject" type-id="GameObject" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-2073ba97-b765-4de6-8843-ea3f3be5d0a4" />
+                </source-codes>
+              </attribute>
+              <attribute id="ad7321a3118994265b7eae2479f836786518" cid="ELEM057" name="volumeSlider" creation-date="01/01/0001 00:00:00" type="Slider" type-id="Slider" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-84d96144-3f9b-42ba-9ead-125d3f993b19" />
+                </source-codes>
+              </attribute>
+              <attribute id="a7444c7b213014cc6aad2fe9f853354c4984" cid="ELEM058" name="fullScreenToggle" creation-date="01/01/0001 00:00:00" type="Toggle" type-id="Toggle" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-dee8120a-5a95-467e-ad12-a55ef9b44966" />
+                </source-codes>
+              </attribute>
+              <attribute id="ac00fbbf2696248e3a7079867d8248c8a763" cid="ELEM059" name="applyButton" creation-date="01/01/0001 00:00:00" type="Button" type-id="Button" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-0464feee-77f4-46a8-8fd2-c5b55a6cb742" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o58d53dba0aad4e6192d553fd4696f07f556" cid="ELEM052" name="OptionsState" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o7649f1e5b6e14aeea5cb987ac7698d9a555" cid="ELEM054" name="Enter" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="package">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o69099111e57449518dc334e1531ec06b112" cid="ELEM055" name="Exit" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="58df0bcabb42469c823ac69f9cc9f365" cid="C027" type="class" name="Menu" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/10/2019 16:06:00">
+            <attributes>
+              <attribute id="aef5c8a283e354a049a2dc7cd0b3fbf8e92" cid="ELEM061" name="optionsMenu" creation-date="01/01/0001 00:00:00" type="GameObject" type-id="GameObject" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-ba06307f-51c3-4b36-8357-0caa366221c2" />
+                </source-codes>
+              </attribute>
+              <attribute id="a2489c24d13c942c28a4af520458a23c256" cid="ELEM062" name="volumeSlider" creation-date="01/01/0001 00:00:00" type="Slider" type-id="Slider" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-61a150f9-3bf4-4855-8e47-d3ab0f0c4248" />
+                </source-codes>
+              </attribute>
+              <attribute id="a0c4e4b093aee43aa9ffd71ccc4396498482" cid="ELEM063" name="fullScreenToggle" creation-date="01/01/0001 00:00:00" type="Toggle" type-id="Toggle" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-54fea71a-4439-405a-904f-e87ea3a7fca0" />
+                </source-codes>
+              </attribute>
+              <attribute id="a67f1355c724a4017b1527d315825f714415" cid="ELEM064" name="applyButton" creation-date="01/01/0001 00:00:00" type="Button" type-id="Button" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-8dcaea75-df38-4fee-bde9-f8bd4ad314d6" />
+                </source-codes>
+              </attribute>
+              <attribute id="aac272f2163714dbf859657ceef3c49d9938" cid="ELEM065" name="mainMenu" creation-date="01/01/0001 00:00:00" type="GameObject" type-id="GameObject" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-79f6ba3d-fcb2-4e03-8fe1-41b5bda83f3b" />
+                </source-codes>
+              </attribute>
+              <attribute id="a0fee93d5b61e4bbc994d510ac2966e02430" cid="ELEM066" name="playButton" creation-date="01/01/0001 00:00:00" type="Button" type-id="Button" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-1b622ffd-f260-418e-9ab2-d5c433cb9fcd" />
+                </source-codes>
+              </attribute>
+              <attribute id="a070687e63c984a74b01deaa28d3dc267485" cid="ELEM067" name="optionsButton" creation-date="01/01/0001 00:00:00" type="Button" type-id="Button" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-f2491ca9-8def-40ef-a780-0078d9f7ead2" />
+                </source-codes>
+              </attribute>
+              <attribute id="a6fa9a7244b904bed8dd8a39e59147f90902" cid="ELEM068" name="exitButton" creation-date="01/01/0001 00:00:00" type="Button" type-id="Button" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-b5228007-589d-4686-b099-820bde3f9c97" />
+                </source-codes>
+              </attribute>
+              <attribute id="ab53a538a21334f0883d8d2df3e51c8fb188" cid="ELEM069" name="stateMachine" creation-date="01/01/0001 00:00:00" type="StateMachine" type-id="StateMachine" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-bc289d3e-40f0-40b4-9727-3b2187b4341e" />
+                </source-codes>
+              </attribute>
+              <attribute id="a11f17bbe1fd746a4987edcb2aa165cca591" cid="ELEM070" name="states" creation-date="01/01/0001 00:00:00" type="List&lt;IState&gt;" type-id="List&lt;IState&gt;" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-8d3d4fdf-09e0-47f2-9725-e2509beacd59" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o28a5fa4977f1426f829ac92d0f5a5e25604" cid="ELEM060" name="Awake" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="1647b1484204461e8018fb4fdada4165" cid="GNR017" type="generalization" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/10/2019 16:07:45" from="58df0bcabb42469c823ac69f9cc9f365" to="42d623ec7d1346b8b25c9e6b7b33c2e3" />
+          <item id="12baca19d5ac468c92a43bdd065ea361" cid="REL010" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/10/2019 16:11:26" from="58df0bcabb42469c823ac69f9cc9f365" to="di395e403a25224731b63f4a942a004a6e3453">
+            <relation from="58df0bcabb42469c823ac69f9cc9f365" to="di395e403a25224731b63f4a942a004a6e3453">
+              <start-role id="umlar-a305a6ee-d858-40ae-ba9e-ff861a120d5d" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-3c5211b6-b586-439b-9812-9cc72615e51d" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="69703c6be45c4f26b4f8fbf8db8f97b3" cid="REL015" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 10:38:12" from="di395e403a25224731b63f4a942a004a6e3453" to="diec77920b21b64a8bb3e57387fc8a48783453">
+            <relation from="di395e403a25224731b63f4a942a004a6e3453" to="diec77920b21b64a8bb3e57387fc8a48783453">
+              <start-role id="umlar-f3c4894e-22f8-41cf-9871-a91f2eab323a" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-07abce17-4fbb-427e-a09a-be4ca0f2e2e6" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="70ceba8b06fc476f9f29d6e3d4c0bf9f" cid="C028" type="class" name="ScoreManager" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 10:20:27">
+            <attributes>
+              <attribute id="ad845f9499b8d4ab28a817752c71a400a83" cid="ELEM084" name="playerScoreText" creation-date="01/01/0001 00:00:00" type="Text" type-id="Text" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-a2274fbd-f595-42aa-88db-c230a91c5301" />
+                </source-codes>
+              </attribute>
+              <attribute id="af718ca50da9c4e62b1da0a1776c0bac1987" cid="ELEM085" name="playerScore" creation-date="01/01/0001 00:00:00" type="int" type-id="int" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-092264db-7b24-4f04-a704-38bcf0d3eed9" />
+                </source-codes>
+              </attribute>
+              <attribute id="ab5c239ebd7064bf6b21d55c030a0e5dc961" cid="ELEM086" name="PlayerScore" creation-date="01/01/0001 00:00:00" type="int" type-id="int" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-84db4a0d-9d59-4b0f-bc96-0c9a9de91efb" />
+                </source-codes>
+              </attribute>
+              <attribute id="ad8cd4e6650cc43ea884c5bb70b3e70b2432" cid="ELEM087" name="aiScoreText" creation-date="01/01/0001 00:00:00" type="Text" type-id="Text" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-0c0387cf-1b09-4230-abf2-d718f527490e" />
+                </source-codes>
+              </attribute>
+              <attribute id="a234e9bb884f1452eb55d05cf8a5c2f0f447" cid="ELEM088" name="aiScore" creation-date="01/01/0001 00:00:00" type="int" type-id="int" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-1510aa50-b5d2-4d0a-ad67-4878625380e2" />
+                </source-codes>
+              </attribute>
+              <attribute id="a1f084196ec66424b972d987754882ee8401" cid="ELEM089" name="endPanel" creation-date="01/01/0001 00:00:00" type="GameObject" type-id="GameObject" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-88a35a39-e13c-41bb-ab48-381f3c51a46b" />
+                </source-codes>
+              </attribute>
+              <attribute id="a4fe3702437164fddab2b2e187a313179358" cid="ELEM090" name="aiWin" creation-date="01/01/0001 00:00:00" type="GameObject" type-id="GameObject" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-5e2d1917-3438-45ab-89a9-581d798133e5" />
+                </source-codes>
+              </attribute>
+              <attribute id="a9fe37649cc4c4dfdb1e2050c01f8f923539" cid="ELEM091" name="playerWin" creation-date="01/01/0001 00:00:00" type="GameObject" type-id="GameObject" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-8f517780-0ff1-4fa1-b820-3c0fa73977db" />
+                </source-codes>
+              </attribute>
+              <attribute id="ab3312c12d72642b1bfe9331eef4202ff726" cid="ELEM113" name="restartButton" creation-date="01/01/0001 00:00:00" type="Button" type-id="Button" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-cb7de694-4637-41ab-84a5-6d8f7c8234ac" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="oaa22cabe78184f6091607e796f4fff6d593" cid="ELEM075" name="UpdateScore" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="pdd1909e1d1cf4599b6696d79e9380378" name="_playerScore" type="int" type-id="int" />
+                  <parameter id="p72ea772466e049368a27d6614c73b97c" name="_aiScore" type="" type-id="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="of2969c081e57450bbcb20d2e796ad3fc842" cid="ELEM076" name="UpdateGUI" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o74fe3765536148b196df6a2bd8ed7838473" cid="ELEM077" name="ShowEndScreen" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="ofbe8e0af902e45b8b430e675f9c99a9628" cid="ELEM114" name="Start" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private" />
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="97df615d9cef4bfc8844f16f3265d7c9" cid="REL017" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 15:02:16" from="70ceba8b06fc476f9f29d6e3d4c0bf9f" to="7944226f7ca0429abfd9d40e65f8cf3e">
+            <relation from="70ceba8b06fc476f9f29d6e3d4c0bf9f" to="7944226f7ca0429abfd9d40e65f8cf3e">
+              <start-role id="umlar-b5f2e9bb-4382-41d6-9776-270c798b84b8" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-7e6b27d8-288b-4b24-a92e-e03bddfdf0f2" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="ad2265175b6a443b89b43d2e33cf68b1" cid="C029" type="class" name="DestructionBlock" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 10:29:14">
+            <attributes>
+              <attribute id="a316bd144cfc04d4c80551dde7292c2c5746" cid="ELEM105" name="ForceBlock(float speed)" creation-date="01/01/0001 00:00:00" type="delegate void" type-id="delegate void" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-332ab886-b459-4fcd-8240-d092221c534c" />
+                </source-codes>
+              </attribute>
+              <attribute id="ae930f441ef5e420fb8bbdd08bd200055586" cid="ELEM106" name="forceBlock" creation-date="01/01/0001 00:00:00" type="event ForceBlock" type-id="event ForceBlock" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-e47cdf8f-c6ed-4c31-b357-558ed9f5891a" />
+                </source-codes>
+              </attribute>
+              <attribute id="aa07de17c1a044a109c6e4ebcf13a9461639" cid="ELEM107" name="force" creation-date="01/01/0001 00:00:00" type="float" type-id="float" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-f6410c10-9578-4fcf-8e87-58ab14c86773" />
+                </source-codes>
+              </attribute>
+              <attribute id="aa6ad14ad381041e38553d79306824af9247" cid="ELEM108" name="damage" creation-date="01/01/0001 00:00:00" type="float" type-id="float" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-fb4cd240-7863-40f8-8752-5d7376057dc1" />
+                </source-codes>
+              </attribute>
+              <attribute id="a88b6d396ec5744a4af37beb2ea5088ec529" cid="ELEM109" name="timer" creation-date="01/01/0001 00:00:00" type="float" type-id="float" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-82658cef-5a71-40e7-ba71-2dab13d98179" />
+                </source-codes>
+              </attribute>
+              <attribute id="a162a9db414a64e6face186224026fced261" cid="ELEM110" name="beginTimerValue" creation-date="01/01/0001 00:00:00" type="float" type-id="float" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-f4836192-d9e0-45d5-b195-6f6eab35e24c" />
+                </source-codes>
+              </attribute>
+              <attribute id="acb689c7e6562469ba7f4a0e997d58fe9786" cid="ELEM111" name="randomXPositionRange" creation-date="01/01/0001 00:00:00" type="int[]" type-id="int[]" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-7962ac02-0f50-4117-b0fb-3f258630d053" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="oc983d37217794be09893b11cf630f95d997" cid="ELEM096" name="Start" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="protected">
+                <stereotypes>
+                  <stereotype>override</stereotype>
+                </stereotypes>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="ocf1891836dd34e1fbaf43fc2ed8a8575404" cid="ELEM097" name="Update" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="protected">
+                <stereotypes>
+                  <stereotype>override</stereotype>
+                </stereotypes>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o9630356bf36946ce955448fd7e766d23732" cid="ELEM098" name="OnCollisionEnter" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="protected">
+                <parameters>
+                  <parameter id="p9fe9721a31d14f9f9353297573415709" name="_coll" type="Collision" type-id="Collision" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>override</stereotype>
+                </stereotypes>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o49093af194e441ce853c5f8b0d10786f491" cid="ELEM099" name="OnBecameInvisible" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="protected">
+                <stereotypes>
+                  <stereotype>overide</stereotype>
+                </stereotypes>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o1d8dfb5cf2ae4f3bb972854048647fca130" cid="ELEM100" name="Timer" creation-date="01/01/0001 00:00:00" type="float" type-id="float" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="bc3441ec9e10449bad9645c905b41c48" cid="C030" type="class" name="PlayerBlock" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 10:29:28">
+            <operations>
+              <operation id="o17881a88b1644c3fb7db5d6f727aa329285" cid="ELEM101" name="Start" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="protected">
+                <stereotypes>
+                  <stereotype>override</stereotype>
+                </stereotypes>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="od1cdb5697a2742b998a65e7ca21fbd3f167" cid="ELEM102" name="OnCollisionEnter" creation-date="01/01/0001 00:00:00" type="protected" type-id="protected" visibility="public">
+                <parameters>
+                  <parameter id="pa4b1706da388467ab013afc5f3ee9bde" name="_coll" type="Collision" type-id="Collision" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>override</stereotype>
+                </stereotypes>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o2f8113fdcb074694bbc4975d4b61c321852" cid="ELEM103" name="OnBecameInvisible" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="protected">
+                <stereotypes>
+                  <stereotype>override</stereotype>
+                </stereotypes>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o5599a9efd18b4f079f0e1b2108ca26c9422" cid="ELEM104" name="Update" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="protected">
+                <stereotypes>
+                  <stereotype>override</stereotype>
+                </stereotypes>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="944b7a4065524b25b390e3de070d230a" cid="GNR018" type="generalization" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 10:30:12" from="ad2265175b6a443b89b43d2e33cf68b1" to="c68934482a3846b8bb44b05ada862bd5" />
+          <item id="b44b6e3cdb6e4597899c3d93cf13bfb6" cid="GNR019" type="generalization" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 10:30:28" from="bc3441ec9e10449bad9645c905b41c48" to="c68934482a3846b8bb44b05ada862bd5" />
+          <item id="c07419d630bf4fc0a9a9e32c5f82bc44" cid="REL014" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 10:34:04" from="ad2265175b6a443b89b43d2e33cf68b1" to="70ceba8b06fc476f9f29d6e3d4c0bf9f">
+            <relation from="ad2265175b6a443b89b43d2e33cf68b1" to="70ceba8b06fc476f9f29d6e3d4c0bf9f">
+              <start-role id="umlar-7de083e6-33c4-42c8-b2e9-cc74fab7b551" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-72641f36-d8c0-446b-b2f3-9928912f7d78" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="cd5d82afe4e04027a167b2d034c8161a" cid="C031" type="class" name="MainMenuState" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 10:50:15">
+            <attributes>
+              <attribute id="a88be5c32532c49d78ed8f130e572fa44706" cid="ELEM078" name="switchState" creation-date="01/01/0001 00:00:00" type="event SwitchState" type-id="event SwitchState" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-30946237-b168-42b5-a3ed-90b74e3c5e1b" />
+                </source-codes>
+              </attribute>
+              <attribute id="aeeadac2160134aa9b84eea1078864616735" cid="ELEM079" name="buttons" creation-date="01/01/0001 00:00:00" type="List&lt;Button&gt;" type-id="List&lt;Button&gt;" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-69d45723-72ad-4178-b179-366150674394" />
+                </source-codes>
+              </attribute>
+              <attribute id="a95f774712ffb488a9d69a57567307541461" cid="ELEM080" name="panel" creation-date="01/01/0001 00:00:00" type="GameObject" type-id="GameObject" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-fb1518a5-c036-438e-80e5-cc29df6059ad" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="oc221d62cc95e476bb0a49a77e6ab4720756" cid="ELEM081" name="MainMenuState" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oe912305ce088422d86e4c434372468f1875" cid="ELEM082" name="Enter" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o0a6256abe1114782b21a7edb1d1341fb606" cid="ELEM083" name="Execute" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="8e309798e8cc4ea395e9eb6ea996f115" cid="REA007" type="realization" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 10:50:27" from="cd5d82afe4e04027a167b2d034c8161a" to="diec77920b21b64a8bb3e57387fc8a48783453" />
+          <item id="0e61aca8055d40499ca67659e1744270" cid="GNR020" type="generalization" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 15:02:37" from="70ceba8b06fc476f9f29d6e3d4c0bf9f" to="f8f24b080a4e494c899b41a882802321" />
+          <item id="b8669cf394e34be190f7d6b5d8f74846" cid="C032" type="class" name="Pool" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 15:04:06">
+            <attributes>
+              <attribute id="a45d4fd3d48cb414e87bcdda93c1f3b0f251" cid="ELEM093" name="childeren" creation-date="01/01/0001 00:00:00" type="List" type-id="List" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-f4ed1144-4f5e-4a52-98c7-434d6152a25c" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o4e8ccecf0ceb46c692c6bcfe7e8f570f483" cid="ELEM094" name="GetObjectFromPool&lt;T&gt;" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oa1e770a5d0d744138c4c32350e4584ca25" cid="ELEM095" name="ReturnObjectToPool&lt;T&gt;" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="b930f08ba20c4457bbb1340a13eb599e" cid="REL019" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 15:29:16" from="ad2265175b6a443b89b43d2e33cf68b1" to="b8669cf394e34be190f7d6b5d8f74846">
+            <relation from="ad2265175b6a443b89b43d2e33cf68b1" to="b8669cf394e34be190f7d6b5d8f74846">
+              <start-role id="umlar-17dc9f90-8050-40f4-896d-89989fa3af49" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-2a119d60-af14-484b-9784-39b5ac6ec6fe" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="ff4766158964438da37bdb635dd1f838" cid="GNR022" type="generalization" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 15:28:45" from="b8669cf394e34be190f7d6b5d8f74846" to="f8f24b080a4e494c899b41a882802321" />
+        </abstract-items>
+        <layer id="7fc81e98d94e45359a53cc85076db35b" name="Default" visible="true" enabled="true" locked="false">
+          <item id="7e0f513c1ba64784a88abe03ac725b49" iid="e037670f16c54cabbec7ed3f5f292301" creation-date="09/03/2019 13:33:20" order-index="0" type="entity">
+            <layout ax="235" ay="88" awidth="347" aheight="162" x="235" y="88" width="347" height="162" />
+            <class />
+          </item>
+          <item id="f8f24b080a4e494c899b41a882802321" iid="2f545c30af82448c97077c214e2400e2" anchor="None" creation-date="09/03/2019 13:42:45" order-index="1" type="entity">
+            <layout ax="301.5" ay="-135" awidth="140" aheight="160" x="301.5" y="-135" width="140" height="160" />
+            <class />
+          </item>
+          <item id="8f45f56c92094254b9bcdd07e8a654d0" iid="5bbceac27d3a4cf09270b8ea46dd3145" creation-date="09/03/2019 13:43:26" order-index="2" type="relation">
+            <layout line-style="straight" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="373" y1="88" x2="372" y2="25" start-border-pos="0.0994224422442244" end-border-pos="0.625" name-position="0,0">
+              <points>
+                <point x="373" y="88" />
+                <point x="372" y="25" />
+              </points>
+            </layout>
+            <relation from="7e0f513c1ba64784a88abe03ac725b49" from-iid="e037670f16c54cabbec7ed3f5f292301" to="f8f24b080a4e494c899b41a882802321" to-iid="2f545c30af82448c97077c214e2400e2" />
+          </item>
+          <item id="c68934482a3846b8bb44b05ada862bd5" iid="964a4971ad0d4b10babe7112a9f0b374" creation-date="09/03/2019 13:46:55" order-index="3" type="entity">
+            <layout ax="774" ay="88" awidth="237" aheight="338" x="774" y="88" width="237" height="338" />
+            <class />
+          </item>
+          <item id="d0d2689f654b4443967ac888f87f9315" iid="d5203b68ce6f44b6887f05c2729cdb0c" creation-date="09/03/2019 13:49:25" order-index="4" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="36.37238,39.38965" end-multiplicity-position="25.02727,14.00038" line-style="straight" lock-start-point="true" lock-end-point="true" lock-to-fields="true" auto-path="" x1="774" y1="155" x2="582" y2="152" start-border-pos="0.950155763239875" end-border-pos="0.348765432098765" name-position="0,0">
+              <points>
+                <point x="774" y="155" />
+                <point x="582" y="152" />
+              </points>
+            </layout>
+            <relation from="c68934482a3846b8bb44b05ada862bd5" from-iid="964a4971ad0d4b10babe7112a9f0b374" to="7e0f513c1ba64784a88abe03ac725b49" to-iid="e037670f16c54cabbec7ed3f5f292301" to-field="ob4da5594f5ec46c8a1c968fa8ef6dc43856" />
+          </item>
+          <item id="42d623ec7d1346b8b25c9e6b7b33c2e3" iid="0246277b0e834bdf8e36ddfcaccad975" anchor="None" creation-date="09/03/2019 14:14:51" order-index="5" type="entity">
+            <layout ax="-184" ay="-273" awidth="1207" aheight="22" x="-184" y="-273" width="1207" height="22" />
+            <class />
+          </item>
+          <item id="3614c2603ce0486c856ff5a1fc3a822d" iid="6f7fc8f882174eb1bce514b9d3d0991f" creation-date="09/03/2019 14:15:38" order-index="6" type="relation">
+            <layout line-style="straight" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="892" y1="88" x2="892" y2="-251" start-border-pos="0.125" end-border-pos="0.527029826014913" name-position="0,0">
+              <points>
+                <point x="892" y="88" />
+                <point x="892" y="-251" />
+              </points>
+            </layout>
+            <relation from="c68934482a3846b8bb44b05ada862bd5" from-iid="964a4971ad0d4b10babe7112a9f0b374" to="42d623ec7d1346b8b25c9e6b7b33c2e3" to-iid="0246277b0e834bdf8e36ddfcaccad975" />
+          </item>
+          <item id="dce9833aa32d4d15ae344bf4f31d8f73" iid="654af2eeebbb4ecaac2cce3f3d44620e" creation-date="09/03/2019 14:15:50" order-index="7" type="relation">
+            <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="386" y1="-135" x2="385" y2="-251" start-border-pos="0.150892857142857" end-border-pos="0.632145816072908" name-position="0,0">
+              <points>
+                <point x="386" y="-135" />
+                <point x="385" y="-251" />
+              </points>
+            </layout>
+            <relation from="f8f24b080a4e494c899b41a882802321" from-iid="2f545c30af82448c97077c214e2400e2" to="42d623ec7d1346b8b25c9e6b7b33c2e3" to-iid="0246277b0e834bdf8e36ddfcaccad975" />
+          </item>
+          <item id="7944226f7ca0429abfd9d40e65f8cf3e" iid="4138cc473b294bb5b6a0481ca59e4e08" anchor="None" creation-date="09/03/2019 14:47:29" order-index="8" type="entity">
+            <layout ax="-487" ay="63" awidth="249" aheight="160" x="-487" y="63" width="249" height="160" />
+            <class />
+          </item>
+          <item id="827f985d75bb4b6ba6689ca67bcffffb" iid="35aee69efe63471198043c13e702abb6" anchor="None" creation-date="09/05/2019 20:03:30" order-index="11" type="entity">
+            <layout ax="511" ay="388" awidth="140" aheight="160" x="511" y="388" width="140" height="160" />
+            <class />
+          </item>
+          <item id="ac8f891b90a94e9088142da4cc1f939a" iid="f84a91c9a5b34c1dafbc928e4f324e1e" creation-date="09/05/2019 20:08:20" order-index="13" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-362" y1="223" x2="983" y2="426" start-border-pos="0.624497991967871" end-border-pos="0.529535864978903" name-position="0,0">
+              <points>
+                <point x="-362" y="223" />
+                <point x="436.5267" y="1019" />
+                <point x="983" y="426" />
+              </points>
+            </layout>
+            <relation from="7944226f7ca0429abfd9d40e65f8cf3e" from-iid="4138cc473b294bb5b6a0481ca59e4e08" to="c68934482a3846b8bb44b05ada862bd5" to-iid="964a4971ad0d4b10babe7112a9f0b374" />
+          </item>
+          <item id="f082cb6901044063bb02521e7e2bd6e7" iid="e49c4ad00a0c4ed999454c49384ecf1e" creation-date="09/05/2019 20:13:00" order-index="14" type="relation">
+            <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-362" y1="63" x2="-127" y2="-251" start-border-pos="0.125" end-border-pos="0.738193869096935" name-position="0,0">
+              <points>
+                <point x="-362" y="63" />
+                <point x="-127" y="-251" />
+              </points>
+            </layout>
+            <relation from="7944226f7ca0429abfd9d40e65f8cf3e" from-iid="4138cc473b294bb5b6a0481ca59e4e08" to="42d623ec7d1346b8b25c9e6b7b33c2e3" to-iid="0246277b0e834bdf8e36ddfcaccad975" />
+          </item>
+          <item id="di395e403a25224731b63f4a942a004a6e3453" iid="0b6806a38d72443c970c5da1bd4da032" creation-date="09/10/2019 12:35:17" order-index="0" type="entity">
+            <layout ax="1613" ay="296" awidth="202" aheight="188" x="1613" y="296" width="202" height="188" />
+            <class />
+          </item>
+          <item id="diec77920b21b64a8bb3e57387fc8a48783453" iid="52a0117e5a8942a4b3f1eb2a2ac652ef" anchor="None" creation-date="09/10/2019 12:36:41" order-index="1" type="entity">
+            <layout ax="1613" ay="30" awidth="184" aheight="160" x="1613" y="30" width="184" height="160" />
+            <class />
+          </item>
+          <item id="di5ffaa712dddd4e1a8c2bdb70a6682f4e3453" iid="109041f12d8447c3afb505f095a5428b" creation-date="09/10/2019 15:34:07" order-index="3" type="entity">
+            <layout ax="1930" ay="93" awidth="191" aheight="160" x="1930" y="93" width="191" height="160" />
+            <enumeration />
+          </item>
+          <item id="di49406ff6f99d4ae197344e7b42b4c2243453" iid="5156608ee2f24a96bf479b6311230a37" creation-date="09/10/2019 15:38:30" order-index="5" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="2024" y1="253" x2="1815" y2="404" start-border-pos="0.62696335078534" end-border-pos="0.393617021276596" name-position="0,0">
+              <points>
+                <point x="2024" y="253" />
+                <point x="1815" y="404" />
+              </points>
+            </layout>
+            <relation from="di5ffaa712dddd4e1a8c2bdb70a6682f4e3453" from-iid="109041f12d8447c3afb505f095a5428b" to="di395e403a25224731b63f4a942a004a6e3453" to-iid="0b6806a38d72443c970c5da1bd4da032" />
+          </item>
+          <item id="di9d9e35ebe2b947e6b358e11ba31af8d13453" iid="b0bdaf64d05241f5b81d68b9b59c2d31" anchor="None" creation-date="09/10/2019 15:42:55" order-index="6" type="entity">
+            <layout ax="1294" ay="253" awidth="140" aheight="160" x="1294" y="253" width="140" height="160" />
+            <class />
+          </item>
+          <item id="di00e9c6fe0d8a42d5a6c7ec70d12ac6253453" iid="f6a9529928334dceab064cf31aa2fe4b" creation-date="09/10/2019 15:46:13" order-index="9" type="relation">
+            <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="true" auto-path="" x1="1476" y1="140" x2="1613" y2="142" start-border-pos="0.398648648648649" end-border-pos="0.82578125" name-position="0,0">
+              <points>
+                <point x="1476" y="140" />
+                <point x="1613" y="142" />
+              </points>
+            </layout>
+            <relation from="dibba22414fd87476eaddd81d8bbbf68eb3453" from-iid="46881aace95842eb9e5f940a029dba47" to="diec77920b21b64a8bb3e57387fc8a48783453" to-iid="52a0117e5a8942a4b3f1eb2a2ac652ef" to-field="oe540a81e7af84972b92b0dc9560ffb5a306" />
+          </item>
+          <item id="di3df1e25d68234fc1bf38415d330f7b383453" iid="4ad14614783d4109bf8238265843be6e" creation-date="09/10/2019 15:46:25" order-index="10" type="relation">
+            <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1434" y1="-91" x2="1613" y2="65" start-border-pos="0.375" end-border-pos="0.9453125" name-position="0,0">
+              <points>
+                <point x="1434" y="-91" />
+                <point x="1613" y="65" />
+              </points>
+            </layout>
+            <relation from="did74b94cfeb2345749289731bb7297c6a3453" from-iid="f6234600c59e4f71b47ae2b964edd667" to="diec77920b21b64a8bb3e57387fc8a48783453" to-iid="52a0117e5a8942a4b3f1eb2a2ac652ef" />
+          </item>
+          <item id="di81fff43e55b44a6e8ae422067ba65e383453" iid="92df915faa444e0d80ef89e91c298635" creation-date="09/10/2019 15:46:32" order-index="11" type="relation">
+            <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1434" y1="296" x2="1613" y2="170" start-border-pos="0.3171875" end-border-pos="0.78125" name-position="0,0">
+              <points>
+                <point x="1434" y="296" />
+                <point x="1613" y="170" />
+              </points>
+            </layout>
+            <relation from="di9d9e35ebe2b947e6b358e11ba31af8d13453" from-iid="b0bdaf64d05241f5b81d68b9b59c2d31" to="diec77920b21b64a8bb3e57387fc8a48783453" to-iid="52a0117e5a8942a4b3f1eb2a2ac652ef" />
+          </item>
+          <item id="did74b94cfeb2345749289731bb7297c6a3453" iid="f6234600c59e4f71b47ae2b964edd667" anchor="None" creation-date="09/10/2019 15:42:55" order-index="6" type="entity">
+            <layout ax="1294" ay="-171" awidth="140" aheight="160" x="1294" y="-171" width="140" height="160" />
+            <class />
+          </item>
+          <item id="dibba22414fd87476eaddd81d8bbbf68eb3453" iid="46881aace95842eb9e5f940a029dba47" anchor="None" creation-date="09/10/2019 15:42:55" order-index="6" type="entity">
+            <layout ax="1294" ay="30" awidth="182" aheight="185" x="1294" y="30" width="182" height="185" />
+            <class />
+          </item>
+          <item id="58df0bcabb42469c823ac69f9cc9f365" iid="7932b29482744dc1be9da41c49c36393" anchor="None" creation-date="09/10/2019 16:06:00" order-index="15" type="entity">
+            <layout ax="1250" ay="583" awidth="192" aheight="236" x="1250" y="583" width="192" height="236" />
+            <class />
+          </item>
+          <item id="1647b1484204461e8018fb4fdada4165" iid="6ce193f154ca48a2937a02e8390eab60" creation-date="09/10/2019 16:07:45" order-index="16" type="relation">
+            <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1250" y1="661" x2="1023" y2="-262" start-border-pos="0.9171875" end-border-pos="0.375" name-position="0,0">
+              <points>
+                <point x="1250" y="661" />
+                <point x="1023" y="-262" />
+              </points>
+            </layout>
+            <relation from="58df0bcabb42469c823ac69f9cc9f365" from-iid="7932b29482744dc1be9da41c49c36393" to="42d623ec7d1346b8b25c9e6b7b33c2e3" to-iid="0246277b0e834bdf8e36ddfcaccad975" />
+          </item>
+          <item id="12baca19d5ac468c92a43bdd065ea361" iid="c40e22ba88a548039431f8bd5387a0c0" creation-date="09/10/2019 16:11:26" order-index="17" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1442" y1="701" x2="1613" y2="451" start-border-pos="0.375" end-border-pos="0.793882978723404" name-position="0,0">
+              <points>
+                <point x="1442" y="701" />
+                <point x="1613" y="451" />
+              </points>
+            </layout>
+            <relation from="58df0bcabb42469c823ac69f9cc9f365" from-iid="7932b29482744dc1be9da41c49c36393" to="di395e403a25224731b63f4a942a004a6e3453" to-iid="0b6806a38d72443c970c5da1bd4da032" />
+          </item>
+          <item id="70ceba8b06fc476f9f29d6e3d4c0bf9f" iid="ab474f348dfa4b6cbfc0161dc2c0966e" anchor="None" creation-date="09/18/2019 10:20:27" order-index="19" type="entity">
+            <layout ax="-147" ay="403" awidth="326" aheight="270" x="-147" y="403" width="326" height="270" />
+            <class />
+          </item>
+          <item id="ad2265175b6a443b89b43d2e33cf68b1" iid="a64904a3a3424ee7a316e7b202fd4f29" anchor="None" creation-date="09/18/2019 10:29:14" order-index="21" type="entity">
+            <layout ax="618" ay="726" awidth="340" aheight="253" x="618" y="726" width="340" height="253" />
+            <class />
+          </item>
+          <item id="bc3441ec9e10449bad9645c905b41c48" iid="66ed7f49f88249e1bbcffe1ae7784e79" anchor="None" creation-date="09/18/2019 10:29:28" order-index="22" type="entity">
+            <layout ax="1059" ay="979" awidth="310" aheight="160" x="1059" y="979" width="310" height="160" />
+            <class />
+          </item>
+          <item id="944b7a4065524b25b390e3de070d230a" iid="ee1c0031213e44a7b92419da0005956a" creation-date="09/18/2019 10:30:12" order-index="23" type="relation">
+            <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="821" y1="726" x2="822" y2="426" start-border-pos="0.149264705882353" end-border-pos="0.699367088607595" name-position="0,0">
+              <points>
+                <point x="821" y="726" />
+                <point x="821.5" y="644.5" />
+                <point x="822" y="426" />
+              </points>
+            </layout>
+            <relation from="ad2265175b6a443b89b43d2e33cf68b1" from-iid="a64904a3a3424ee7a316e7b202fd4f29" to="c68934482a3846b8bb44b05ada862bd5" to-iid="964a4971ad0d4b10babe7112a9f0b374" />
+          </item>
+          <item id="b44b6e3cdb6e4597899c3d93cf13bfb6" iid="47d561fc6f784e8cb2cd580f64eda645" creation-date="09/18/2019 10:30:28" order-index="24" type="relation">
+            <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1106" y1="979" x2="1011" y2="350" start-border-pos="0.0379032258064516" end-border-pos="0.44392523364486" name-position="20,-49">
+              <points>
+                <point x="1106" y="979" />
+                <point x="1105.854" y="644.5" />
+                <point x="1011" y="350" />
+              </points>
+            </layout>
+            <relation from="bc3441ec9e10449bad9645c905b41c48" from-iid="66ed7f49f88249e1bbcffe1ae7784e79" to="c68934482a3846b8bb44b05ada862bd5" to-iid="964a4971ad0d4b10babe7112a9f0b374" />
+          </item>
+          <item id="c07419d630bf4fc0a9a9e32c5f82bc44" iid="78ca8206233944c8a9a4c1b7280305df" creation-date="09/18/2019 10:34:04" order-index="25" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="618" y1="873" x2="16" y2="673" start-border-pos="0.8546875" end-border-pos="0.625" name-position="0,0">
+              <points>
+                <point x="618" y="873" />
+                <point x="16" y="673" />
+              </points>
+            </layout>
+            <relation from="ad2265175b6a443b89b43d2e33cf68b1" from-iid="a64904a3a3424ee7a316e7b202fd4f29" to="70ceba8b06fc476f9f29d6e3d4c0bf9f" to-iid="ab474f348dfa4b6cbfc0161dc2c0966e" />
+          </item>
+          <item id="69703c6be45c4f26b4f8fbf8db8f97b3" iid="9ee5810a9b8f47eebdc43b53e2a2629a" creation-date="09/18/2019 10:38:12" order-index="26" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1714" y1="296" x2="1714" y2="190" start-border-pos="0.125" end-border-pos="0.612771739130435" name-position="0,0">
+              <points>
+                <point x="1714" y="296" />
+                <point x="1714" y="190" />
+              </points>
+            </layout>
+            <relation from="di395e403a25224731b63f4a942a004a6e3453" from-iid="0b6806a38d72443c970c5da1bd4da032" to="diec77920b21b64a8bb3e57387fc8a48783453" to-iid="52a0117e5a8942a4b3f1eb2a2ac652ef" />
+          </item>
+          <item id="e0f485a033eb41458138d39cd5683862" iid="fa17040b753b4684a4d57373f3681439" creation-date="09/18/2019 10:41:42" order-index="27" type="relation">
+            <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="774" y1="308" x2="651" y2="454" start-border-pos="0.837227414330218" end-border-pos="0.353125" name-position="0,0">
+              <points>
+                <point x="774" y="308" />
+                <point x="651" y="454" />
+              </points>
+            </layout>
+            <relation from="c68934482a3846b8bb44b05ada862bd5" from-iid="964a4971ad0d4b10babe7112a9f0b374" to="827f985d75bb4b6ba6689ca67bcffffb" to-iid="35aee69efe63471198043c13e702abb6" />
+          </item>
+          <item id="cd5d82afe4e04027a167b2d034c8161a" iid="dcb99c8629ea4ff8833247ed7e2ef93a" anchor="None" creation-date="09/18/2019 10:50:15" order-index="28" type="entity">
+            <layout ax="1635" ay="-236" awidth="216" aheight="160" x="1635" y="-236" width="216" height="160" />
+            <class />
+          </item>
+          <item id="8e309798e8cc4ea395e9eb6ea996f115" iid="1c71ea5313224953a5428888dd8863a3" creation-date="09/18/2019 10:50:27" order-index="29" type="relation">
+            <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="true" auto-path="" x1="1705" y1="-76" x2="1705" y2="30" start-border-pos="0.668981481481482" end-border-pos="0.125" name-position="0,0">
+              <points>
+                <point x="1705" y="-76" />
+                <point x="1705" y="30" />
+              </points>
+            </layout>
+            <relation from="cd5d82afe4e04027a167b2d034c8161a" from-iid="dcb99c8629ea4ff8833247ed7e2ef93a" to="diec77920b21b64a8bb3e57387fc8a48783453" to-iid="52a0117e5a8942a4b3f1eb2a2ac652ef" to-field="interface" />
+          </item>
+          <item id="97df615d9cef4bfc8844f16f3265d7c9" iid="019e9a009ec442be834980d88623b050" creation-date="09/18/2019 15:02:16" order-index="30" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-128" y1="403" x2="-238" y2="143" start-border-pos="0.0145705521472393" end-border-pos="0.375" name-position="0,0">
+              <points>
+                <point x="-128" y="403" />
+                <point x="-238" y="143" />
+              </points>
+            </layout>
+            <relation from="70ceba8b06fc476f9f29d6e3d4c0bf9f" from-iid="ab474f348dfa4b6cbfc0161dc2c0966e" to="7944226f7ca0429abfd9d40e65f8cf3e" to-iid="4138cc473b294bb5b6a0481ca59e4e08" />
+          </item>
+          <item id="0e61aca8055d40499ca67659e1744270" iid="b7b1076c07ac4d4296a8784a52e2c8ef" creation-date="09/18/2019 15:02:37" order-index="31" type="relation">
+            <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="16" y1="403" x2="302" y2="-32" start-border-pos="0.125" end-border-pos="0.8390625" name-position="0,0">
+              <points>
+                <point x="16" y="403" />
+                <point x="302" y="-32" />
+              </points>
+            </layout>
+            <relation from="70ceba8b06fc476f9f29d6e3d4c0bf9f" from-iid="ab474f348dfa4b6cbfc0161dc2c0966e" to="f8f24b080a4e494c899b41a882802321" to-iid="2f545c30af82448c97077c214e2400e2" />
+          </item>
+          <item id="b8669cf394e34be190f7d6b5d8f74846" iid="e405a349f549457b8956e494beec0fd0" anchor="None" creation-date="09/18/2019 15:04:06" order-index="32" type="entity">
+            <layout ax="349.5" ay="460" awidth="140" aheight="160" x="349.5" y="460" width="140" height="160" />
+            <class />
+          </item>
+          <item id="ff4766158964438da37bdb635dd1f838" iid="1be7f9f2f54b48c5bc374d90fc8f0673" creation-date="09/18/2019 15:28:45" order-index="34" type="relation">
+            <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="409" y1="460" x2="302" y2="-11" start-border-pos="0.10625" end-border-pos="0.80625" name-position="0,0">
+              <points>
+                <point x="409" y="460" />
+                <point x="305.5" y="290.5" />
+                <point x="302" y="-11" />
+              </points>
+            </layout>
+            <relation from="b8669cf394e34be190f7d6b5d8f74846" from-iid="e405a349f549457b8956e494beec0fd0" to="f8f24b080a4e494c899b41a882802321" to-iid="2f545c30af82448c97077c214e2400e2" />
+          </item>
+          <item id="b930f08ba20c4457bbb1340a13eb599e" iid="af2bb81832e64e82b34aec025cbf2ece" creation-date="09/18/2019 15:29:16" order-index="35" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="670" y1="726" x2="420" y2="620" start-border-pos="0.0382352941176471" end-border-pos="0.624107142857143" name-position="0,0">
+              <points>
+                <point x="670" y="726" />
+                <point x="420" y="620" />
+              </points>
+            </layout>
+            <relation from="ad2265175b6a443b89b43d2e33cf68b1" from-iid="a64904a3a3424ee7a316e7b202fd4f29" to="b8669cf394e34be190f7d6b5d8f74846" to-iid="e405a349f549457b8956e494beec0fd0" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-class" id="p83a64e21628b4a589367d2066200cefc_302904078" name="ClassDiagram2" order-index="2" overview-order-index="0" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="-159,-451" zoom="0.8">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>09/10/2019 12:35:13</creation-date>
+          <change-date>09/10/2019 15:51:04</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="d5e7a13aa6df44929b0f9e6cb83687a9" cid="C020" type="class" name="Statemachine" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/10/2019 12:35:17">
+            <attributes>
+              <attribute id="abd70452e4ecf445784c06432ac25e4a0722" cid="ELEM043" name="currentState" creation-date="01/01/0001 00:00:00" type="IStateMachine" type-id="IStateMachine" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-31dda20d-37c1-4e46-8b11-19724ebc2fe9" />
+                </source-codes>
+              </attribute>
+              <attribute id="ae6e6c64e186b43f698beadb0d6943509580" cid="ELEM048" name="states" creation-date="01/01/0001 00:00:00" type="IStateMachine[] (IStateMachine)" type-id="IStateMachine[] (IStateMachine)" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-583dbe92-4fd8-4f00-be35-d0136ea6ae99" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o962cf72a96b8474388c5ed866e5984e6613" cid="ELEM044" name="SwitchState" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="pfdb2e5ab25324dd0bda848b436ca916a" name="_nextState" type="States" type-id="Class:1b93a3c4f5484d5483f56a622df59006" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o6d87fd5782764e0cb8e4822d103d78b6906" cid="ELEM049" name="StateMachine" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p8be100c353964cb18c344424075f8dc6" name="states" type="List&lt;IStateMachine&gt;" type-id="List&lt;IStateMachine&gt;" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="be5fd04eaf4d412e838fc950e72d28f6" cid="C021" type="class" name="IStatemachine" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/10/2019 12:36:41">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <attributes>
+              <attribute id="aad5eecc89bb14143ac5361a8a7d29c51836" cid="ELEM050" name="SwitchState" creation-date="01/01/0001 00:00:00" type="delegate void" type-id="delegate void" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-f76701bf-229e-4e45-8eaf-10bc6eecde7e" />
+                </source-codes>
+              </attribute>
+              <attribute id="ad52ce2892a3a439cac103773d42fe625124" cid="ELEM051" name="switchState" creation-date="01/01/0001 00:00:00" type="event" type-id="event" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-b483e650-5bb2-4903-b2a3-f5af418fe6e6" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="ofe066453013c431d8ec49f1191f367b4187" cid="ELEM045" name="Enter" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oe540a81e7af84972b92b0dc9560ffb5a306" cid="ELEM046" name="Execute" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="odb7321624e72425c9c99e7b744c98022467" cid="ELEM047" name="Exit" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="6647d6675e1047f5af1a050f22fad308" cid="REL009" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/10/2019 15:38:30" from="1b93a3c4f5484d5483f56a622df59006" to="d5e7a13aa6df44929b0f9e6cb83687a9">
+            <relation from="1b93a3c4f5484d5483f56a622df59006" to="d5e7a13aa6df44929b0f9e6cb83687a9">
+              <start-role id="umlar-fcf8fbd6-ce74-468e-8c64-03be92de277a" name="" navigability="" association-type="composition" visibility="private" />
+              <end-role id="umlar-bf64ab59-4c4e-4452-b459-9a5e450b6236" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="1b93a3c4f5484d5483f56a622df59006" cid="E001" type="enumeration" name="States" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/10/2019 15:34:07">
+            <stereotypes>
+              <stereotype name="enumeration" />
+            </stereotypes>
+            <enumeration-items>
+              <enumeration-item id="a45507ad657884ee3bb1d6f8f796b10ac613" cid="ELEM001" name="MainMenuState" creation-date="01/01/0001 00:00:00" />
+              <enumeration-item id="a9b0afaf707ac49f2857486a6b68fce40399" cid="ELEM002" name="PlayState" creation-date="01/01/0001 00:00:00" />
+              <enumeration-item id="a4ce6f749e95a4f1185960cd8377982d6219" cid="ELEM003" name="OptionState" creation-date="01/01/0001 00:00:00" />
+              <enumeration-item id="a2d23a8da35af477a888e6300bbb3bd99893" cid="ELEM004" name="ExitState" creation-date="01/01/0001 00:00:00" />
+            </enumeration-items>
+          </item>
+          <item id="33a190d6f86d4dae8f81bc87f3334476" cid="REA001" type="realization" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/10/2019 15:36:15" from="d5e7a13aa6df44929b0f9e6cb83687a9" to="be5fd04eaf4d412e838fc950e72d28f6" />
+          <item id="2d82f5a1711e4ef4a7a1ea57f417c748" cid="C024" type="class" name="PlayState" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/10/2019 15:42:55">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes>
+              <attribute id="aeff7a91cc6144738876e2d3179f2ebcd944" cid="ELEM053" name="switchState" creation-date="01/01/0001 00:00:00" type="SwitchState" type-id="SwitchState" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-058c1aac-7e12-469d-8d28-f093d221e347" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o58d53dba0aad4e6192d553fd4696f07f556" cid="ELEM052" name="PlayState" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o7649f1e5b6e14aeea5cb987ac7698d9a555" cid="ELEM054" name="Enter" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="package">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o69099111e57449518dc334e1531ec06b112" cid="ELEM055" name="Exit" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="di8d88f6f8ee7548bdaebd89a48718d1ea9956" cid="C024" type="class" name="ExitState" style-class="" visibility="package" change-tracking-state="added" creation-date="09/10/2019 15:42:55">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes>
+              <attribute id="aeff7a91cc6144738876e2d3179f2ebcd944" cid="ELEM053" name="switchState" creation-date="01/01/0001 00:00:00" type="SwitchState" type-id="SwitchState" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-f0d8cd03-7ba4-4816-ad58-8b193e96121c" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o58d53dba0aad4e6192d553fd4696f07f556" cid="ELEM052" name="ExitState" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o7649f1e5b6e14aeea5cb987ac7698d9a555" cid="ELEM054" name="Enter" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="package">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o69099111e57449518dc334e1531ec06b112" cid="ELEM055" name="Exit" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="dicdf210f4f1d24c67bc2589594c5208687485" cid="C024" type="class" name="OptionsState" style-class="" visibility="package" change-tracking-state="added" creation-date="09/10/2019 15:42:55">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes>
+              <attribute id="aeff7a91cc6144738876e2d3179f2ebcd944" cid="ELEM053" name="switchState" creation-date="01/01/0001 00:00:00" type="SwitchState" type-id="SwitchState" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-28537ef6-0b8b-4b98-8703-da91b1b53ba2" />
+                </source-codes>
+              </attribute>
+              <attribute id="ad7e3b45ccc7e40aead46c589681483e4475" cid="ELEM056" name="optionsMenu" creation-date="01/01/0001 00:00:00" type="GameObject" type-id="GameObject" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-2073ba97-b765-4de6-8843-ea3f3be5d0a4" />
+                </source-codes>
+              </attribute>
+              <attribute id="ad7321a3118994265b7eae2479f836786518" cid="ELEM057" name="volumeSlider" creation-date="01/01/0001 00:00:00" type="Slider" type-id="Slider" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-84d96144-3f9b-42ba-9ead-125d3f993b19" />
+                </source-codes>
+              </attribute>
+              <attribute id="a7444c7b213014cc6aad2fe9f853354c4984" cid="ELEM058" name="fullScreenToggle" creation-date="01/01/0001 00:00:00" type="Toggle" type-id="Toggle" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-dee8120a-5a95-467e-ad12-a55ef9b44966" />
+                </source-codes>
+              </attribute>
+              <attribute id="ac00fbbf2696248e3a7079867d8248c8a763" cid="ELEM059" name="applyButton" creation-date="01/01/0001 00:00:00" type="Button" type-id="Button" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-0464feee-77f4-46a8-8fd2-c5b55a6cb742" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o58d53dba0aad4e6192d553fd4696f07f556" cid="ELEM052" name="OptionsState" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o7649f1e5b6e14aeea5cb987ac7698d9a555" cid="ELEM054" name="Enter" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="package">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o69099111e57449518dc334e1531ec06b112" cid="ELEM055" name="Exit" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="6c595e7703fe426e9260e9663cd609a2" cid="REA002" type="realization" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/10/2019 15:46:13" from="dicdf210f4f1d24c67bc2589594c5208687485" to="be5fd04eaf4d412e838fc950e72d28f6" />
+          <item id="99702f4189644309b79316120417c327" cid="REA003" type="realization" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/10/2019 15:46:25" from="di8d88f6f8ee7548bdaebd89a48718d1ea9956" to="be5fd04eaf4d412e838fc950e72d28f6" />
+          <item id="3237ef36f6324af380f856b152a2bf84" cid="REA004" type="realization" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/10/2019 15:46:32" from="2d82f5a1711e4ef4a7a1ea57f417c748" to="be5fd04eaf4d412e838fc950e72d28f6" />
+        </abstract-items>
+        <layer id="3148e862b56b40daa3da20cf7b664a28" name="Default" visible="true" enabled="true" locked="false">
+          <item id="d5e7a13aa6df44929b0f9e6cb83687a9" iid="a8acf84595bc4120ba8b1c7dd4f00f0e" creation-date="09/10/2019 12:35:17" order-index="0" type="entity">
+            <layout ax="334" ay="48" awidth="202" aheight="188" x="334" y="48" width="202" height="188" />
+            <class />
+          </item>
+          <item id="be5fd04eaf4d412e838fc950e72d28f6" iid="bdf70fb4191c4673be964c86fb23759a" anchor="None" creation-date="09/10/2019 12:36:41" order-index="1" type="entity">
+            <layout ax="334" ay="-218" awidth="184" aheight="160" x="334" y="-218" width="184" height="160" />
+            <class />
+          </item>
+          <item id="1b93a3c4f5484d5483f56a622df59006" iid="604474b1fb9e4dbd901f44eaff40fee8" creation-date="09/10/2019 15:34:07" order-index="3" type="entity">
+            <layout ax="651" ay="-155" awidth="191" aheight="160" x="651" y="-155" width="191" height="160" />
+            <enumeration />
+          </item>
+          <item id="33a190d6f86d4dae8f81bc87f3334476" iid="73c1f1c35e704b42b88e514cedb69426" creation-date="09/10/2019 15:36:15" order-index="4" type="relation">
+            <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="404" y1="48" x2="426" y2="-58" start-border-pos="0.0866336633663366" end-border-pos="0.625" name-position="0,0">
+              <points>
+                <point x="404" y="48" />
+                <point x="426" y="-58" />
+              </points>
+            </layout>
+            <relation from="d5e7a13aa6df44929b0f9e6cb83687a9" from-iid="a8acf84595bc4120ba8b1c7dd4f00f0e" to="be5fd04eaf4d412e838fc950e72d28f6" to-iid="bdf70fb4191c4673be964c86fb23759a" />
+          </item>
+          <item id="6647d6675e1047f5af1a050f22fad308" iid="9febc59bdf2b434b81a208a90e9c6327" creation-date="09/10/2019 15:38:30" order-index="5" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="679" y1="5" x2="536" y2="156" start-border-pos="0.713350785340314" end-border-pos="0.393617021276596" name-position="0,0">
+              <points>
+                <point x="679" y="5" />
+                <point x="536" y="156" />
+              </points>
+            </layout>
+            <relation from="1b93a3c4f5484d5483f56a622df59006" from-iid="604474b1fb9e4dbd901f44eaff40fee8" to="d5e7a13aa6df44929b0f9e6cb83687a9" to-iid="a8acf84595bc4120ba8b1c7dd4f00f0e" />
+          </item>
+          <item id="2d82f5a1711e4ef4a7a1ea57f417c748" iid="0de6bdbf1d404be4b9223df85c911079" anchor="None" creation-date="09/10/2019 15:42:55" order-index="6" type="entity">
+            <layout ax="15" ay="5" awidth="140" aheight="160" x="15" y="5" width="140" height="160" />
+            <class />
+          </item>
+          <item id="6c595e7703fe426e9260e9663cd609a2" iid="582e57fbad4c4d849d41fc5e180d456d" creation-date="09/10/2019 15:46:13" order-index="9" type="relation">
+            <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="true" auto-path="" x1="197" y1="-108" x2="334" y2="-107" start-border-pos="0.398648648648649" end-border-pos="0.82578125" name-position="0,0">
+              <points>
+                <point x="197" y="-108" />
+                <point x="334" y="-107" />
+              </points>
+            </layout>
+            <relation from="dicdf210f4f1d24c67bc2589594c5208687485" from-iid="8ce337e3642845feac6c9b5a161d5dc3" to="be5fd04eaf4d412e838fc950e72d28f6" to-iid="bdf70fb4191c4673be964c86fb23759a" to-field="oe540a81e7af84972b92b0dc9560ffb5a306" />
+          </item>
+          <item id="99702f4189644309b79316120417c327" iid="5ef8b3ff377f4815be36f5404a559da9" creation-date="09/10/2019 15:46:25" order-index="10" type="relation">
+            <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="155" y1="-339" x2="334" y2="-183" start-border-pos="0.375" end-border-pos="0.9453125" name-position="0,0">
+              <points>
+                <point x="155" y="-339" />
+                <point x="334" y="-183" />
+              </points>
+            </layout>
+            <relation from="di8d88f6f8ee7548bdaebd89a48718d1ea9956" from-iid="948e42202afa48f2a5569bb22e06c7a4" to="be5fd04eaf4d412e838fc950e72d28f6" to-iid="bdf70fb4191c4673be964c86fb23759a" />
+          </item>
+          <item id="3237ef36f6324af380f856b152a2bf84" iid="94c078ac30954e69b7b4156cc4dccf2b" creation-date="09/10/2019 15:46:32" order-index="11" type="relation">
+            <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="155" y1="48" x2="334" y2="-78" start-border-pos="0.3171875" end-border-pos="0.78125" name-position="0,0">
+              <points>
+                <point x="155" y="48" />
+                <point x="334" y="-78" />
+              </points>
+            </layout>
+            <relation from="2d82f5a1711e4ef4a7a1ea57f417c748" from-iid="0de6bdbf1d404be4b9223df85c911079" to="be5fd04eaf4d412e838fc950e72d28f6" to-iid="bdf70fb4191c4673be964c86fb23759a" />
+          </item>
+          <item id="di8d88f6f8ee7548bdaebd89a48718d1ea9956" iid="948e42202afa48f2a5569bb22e06c7a4" anchor="None" creation-date="09/10/2019 15:42:55" order-index="6" type="entity">
+            <layout ax="15" ay="-419" awidth="140" aheight="160" x="15" y="-419" width="140" height="160" />
+            <class />
+          </item>
+          <item id="dicdf210f4f1d24c67bc2589594c5208687485" iid="8ce337e3642845feac6c9b5a161d5dc3" anchor="None" creation-date="09/10/2019 15:42:55" order-index="6" type="entity">
+            <layout ax="15" ay="-218" awidth="182" aheight="185" x="15" y="-218" width="182" height="185" />
+            <class />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-activity" id="p2970c07f831b453a9ee1de9e82df03d6_509747744" name="ActivityDiagram1" order-index="3" overview-order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="0,166">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>09/18/2019 14:41:44</creation-date>
+          <change-date>09/18/2019 21:38:16</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="d71ad76d8df84828a4bb354027698a5c" cid="IN001" type="initial-node" name="Start" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 21:33:08" />
+          <item id="201e9641b6754c038c2634ed1c57824d" cid="A001" type="activity" name="Menu" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 21:33:18">
+            <activity />
+          </item>
+          <item id="bb9acc750f714e02990a7799a2f6823c" cid="A002" type="activity" name="Play" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 21:34:14">
+            <activity />
+          </item>
+          <item id="di2f8501a660544f6a9241cad48d9839d96514" cid="A002" type="activity" name="Options" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 21:34:14">
+            <activity />
+          </item>
+          <item id="did209a926518a4c48972f32aa886a6ebb3256" cid="A002" type="activity" name="Exit" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 21:34:14">
+            <activity />
+          </item>
+          <item id="d76b25d177e246b4ad00e1596bccdcc3" cid="DC001" type="decision" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 21:35:24" />
+          <item id="808e9ffb1779459fa60c4cc79f1d76c0" cid="ELEM003" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 21:35:57" from="201e9641b6754c038c2634ed1c57824d" to="d76b25d177e246b4ad00e1596bccdcc3">
+            <control-flow guard="" />
+          </item>
+          <item id="c9dca53a42914b92b28fab5c39d723f4" cid="ELEM004" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 21:36:06" from="d76b25d177e246b4ad00e1596bccdcc3" to="bb9acc750f714e02990a7799a2f6823c">
+            <control-flow guard="" />
+          </item>
+          <item id="2f64482b3e64443eb05b79d6c5d96a35" cid="ELEM005" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 21:36:16" from="d76b25d177e246b4ad00e1596bccdcc3" to="did209a926518a4c48972f32aa886a6ebb3256">
+            <control-flow guard="" />
+          </item>
+          <item id="b94adee1af0c48bb88b4633399496f34" cid="ELEM006" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 21:36:23" from="d76b25d177e246b4ad00e1596bccdcc3" to="di2f8501a660544f6a9241cad48d9839d96514">
+            <control-flow guard="" />
+          </item>
+          <item id="fddfbcceb84440bca26e4cdfb44cf4e9" cid="ACT001" type="action" name="EndScreen" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 21:36:35" />
+          <item id="9ac11ca0e7f940e281911af5c21186c2" cid="ELEM007" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 21:36:50" from="fddfbcceb84440bca26e4cdfb44cf4e9" to="bb9acc750f714e02990a7799a2f6823c">
+            <control-flow guard="" />
+          </item>
+          <item id="8a0627b0bae44da2881e1d334d6bd2b5" cid="ELEM008" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 21:37:02" from="bb9acc750f714e02990a7799a2f6823c" to="fddfbcceb84440bca26e4cdfb44cf4e9">
+            <control-flow guard="" />
+          </item>
+          <item id="7edb3142a5714523887db9acbd8f5ef9" cid="A003" type="activity" name="OptionMenu" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 21:38:00">
+            <activity />
+          </item>
+          <item id="124aa3d64081466b94fce0467cae99e2" cid="ELEM009" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 21:38:10" from="di2f8501a660544f6a9241cad48d9839d96514" to="7edb3142a5714523887db9acbd8f5ef9">
+            <control-flow guard="" />
+          </item>
+          <item id="2150bbe80e9d44d692f9f33d8a2d7da9" cid="ELEM010" type="control-flow" name="" style-class="" visibility="package" change-tracking-state="added" creator="P7d950b2d373c484aaf7e0158b8eefd5a" creation-date="09/18/2019 21:38:16" from="d71ad76d8df84828a4bb354027698a5c" to="201e9641b6754c038c2634ed1c57824d">
+            <control-flow guard="" />
+          </item>
+        </abstract-items>
+        <layer id="38aa179ce53248168853b4eb2a7b203d" name="Default" visible="true" enabled="true" locked="false">
+          <item id="d71ad76d8df84828a4bb354027698a5c" iid="e7364b92e8164786a51cc8b75f1d773f" anchor="None" creation-date="09/18/2019 21:33:08" order-index="0" type="entity">
+            <layout ax="268" ay="198" awidth="25" aheight="25" x="268" y="198" width="25" height="25" name-position="0,10" name-anchor="bottom" auto-anchor="true" label-attached="false" />
+          </item>
+          <item id="201e9641b6754c038c2634ed1c57824d" iid="a055ff8d3fb744e792e771ad74802f2e" anchor="None" creation-date="09/18/2019 21:33:18" order-index="1" type="entity">
+            <layout ax="495" ay="185.5" awidth="100" aheight="50" x="495" y="185.5" width="100" height="50" container-layout="simple" />
+          </item>
+          <item id="bb9acc750f714e02990a7799a2f6823c" iid="0f22116f6ce54fe2a6b72f40024e62a0" anchor="None" creation-date="09/18/2019 21:34:14" order-index="2" type="entity">
+            <layout ax="654" ay="30" awidth="100" aheight="50" x="654" y="30" width="100" height="50" container-layout="simple" />
+          </item>
+          <item id="di2f8501a660544f6a9241cad48d9839d96514" iid="56181790ee72486eb3c64aa8f37f79b7" anchor="None" creation-date="09/18/2019 21:34:14" order-index="2" type="entity">
+            <layout ax="830" ay="185.5" awidth="100" aheight="50" x="830" y="185.5" width="100" height="50" container-layout="simple" />
+          </item>
+          <item id="did209a926518a4c48972f32aa886a6ebb3256" iid="cb69ff69ab0f4b558712559cce16d3a9" anchor="None" creation-date="09/18/2019 21:34:14" order-index="2" type="entity">
+            <layout ax="668" ay="348" awidth="100" aheight="50" x="668" y="348" width="100" height="50" container-layout="simple" />
+          </item>
+          <item id="d76b25d177e246b4ad00e1596bccdcc3" iid="60914d1f7e314b27a583c659694828c6" anchor="None" creation-date="09/18/2019 21:35:24" order-index="4" type="entity">
+            <layout ax="684" ay="183" awidth="40" aheight="55" x="684" y="183" width="40" height="55" name-position="0,10" name-anchor="bottom" auto-anchor="true" label-attached="false" />
+          </item>
+          <item id="808e9ffb1779459fa60c4cc79f1d76c0" iid="12ea19ebcb5c4f6883eaa81d2ce37059" creation-date="09/18/2019 21:35:57" order-index="5" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="595" y1="210" x2="685" y2="212" start-border-pos="0.3725" end-border-pos="0.870454545454545" name-position="0,0">
+              <points>
+                <point x="595" y="210" />
+                <point x="685" y="212" />
+              </points>
+            </layout>
+            <relation from="201e9641b6754c038c2634ed1c57824d" from-iid="a055ff8d3fb744e792e771ad74802f2e" to="d76b25d177e246b4ad00e1596bccdcc3" to-iid="60914d1f7e314b27a583c659694828c6" />
+          </item>
+          <item id="c9dca53a42914b92b28fab5c39d723f4" iid="423210e9e2634b2183a938e5fb51301d" creation-date="09/18/2019 21:36:06" order-index="6" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="704" y1="183" x2="704" y2="80" start-border-pos="0.125" end-border-pos="0.625" name-position="0,0">
+              <points>
+                <point x="704" y="183" />
+                <point x="704" y="80" />
+              </points>
+            </layout>
+            <relation from="d76b25d177e246b4ad00e1596bccdcc3" from-iid="60914d1f7e314b27a583c659694828c6" to="bb9acc750f714e02990a7799a2f6823c" to-iid="0f22116f6ce54fe2a6b72f40024e62a0" />
+          </item>
+          <item id="2f64482b3e64443eb05b79d6c5d96a35" iid="62dedd7047a04f52b9dc2051fd22926e" creation-date="09/18/2019 21:36:16" order-index="7" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="704" y1="238" x2="704" y2="348" start-border-pos="0.625" end-border-pos="0.09" name-position="0,0">
+              <points>
+                <point x="704" y="238" />
+                <point x="704" y="348" />
+              </points>
+            </layout>
+            <relation from="d76b25d177e246b4ad00e1596bccdcc3" from-iid="60914d1f7e314b27a583c659694828c6" to="did209a926518a4c48972f32aa886a6ebb3256" to-iid="cb69ff69ab0f4b558712559cce16d3a9" />
+          </item>
+          <item id="b94adee1af0c48bb88b4633399496f34" iid="e2611ca4d7cd41f89388241040d639e4" creation-date="09/18/2019 21:36:23" order-index="8" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="723" y1="210" x2="830" y2="210" start-border-pos="0.372727272727273" end-border-pos="0.8775" name-position="0,0">
+              <points>
+                <point x="723" y="210" />
+                <point x="830" y="210" />
+              </points>
+            </layout>
+            <relation from="d76b25d177e246b4ad00e1596bccdcc3" from-iid="60914d1f7e314b27a583c659694828c6" to="di2f8501a660544f6a9241cad48d9839d96514" to-iid="56181790ee72486eb3c64aa8f37f79b7" />
+          </item>
+          <item id="fddfbcceb84440bca26e4cdfb44cf4e9" iid="84ac4ad9e63b4c7297b8689c58e7ce8c" anchor="None" creation-date="09/18/2019 21:36:35" order-index="9" type="entity">
+            <layout ax="654" ay="-73" awidth="100" aheight="50" x="654" y="-73" width="100" height="50" />
+          </item>
+          <item id="9ac11ca0e7f940e281911af5c21186c2" iid="8ac0726a1cb2413c8b75c4591333d1ff" creation-date="09/18/2019 21:36:50" order-index="10" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="704" y1="-23" x2="704" y2="30" start-border-pos="0.625" end-border-pos="0.125" name-position="0,0">
+              <points>
+                <point x="704" y="-23" />
+                <point x="704" y="30" />
+              </points>
+            </layout>
+            <relation from="fddfbcceb84440bca26e4cdfb44cf4e9" from-iid="84ac4ad9e63b4c7297b8689c58e7ce8c" to="bb9acc750f714e02990a7799a2f6823c" to-iid="0f22116f6ce54fe2a6b72f40024e62a0" />
+          </item>
+          <item id="8a0627b0bae44da2881e1d334d6bd2b5" iid="5f41b17479c6405db0d86b2b1e69802d" creation-date="09/18/2019 21:37:02" order-index="11" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="728" y1="30" x2="728" y2="-23" start-border-pos="0.185" end-border-pos="0.565" name-position="0,0">
+              <points>
+                <point x="728" y="30" />
+                <point x="728" y="-23" />
+              </points>
+            </layout>
+            <relation from="bb9acc750f714e02990a7799a2f6823c" from-iid="0f22116f6ce54fe2a6b72f40024e62a0" to="fddfbcceb84440bca26e4cdfb44cf4e9" to-iid="84ac4ad9e63b4c7297b8689c58e7ce8c" />
+          </item>
+          <item id="7edb3142a5714523887db9acbd8f5ef9" iid="0ff60f8623a74b32bf9fa3badb9a8ad7" creation-date="09/18/2019 21:38:00" order-index="12" type="entity">
+            <layout ax="1027" ay="192" awidth="174" aheight="64" x="1027" y="192" width="174" height="64" container-layout="simple" />
+          </item>
+          <item id="124aa3d64081466b94fce0467cae99e2" iid="d08ac679d0ac4c9aa436fdaa083de8d1" creation-date="09/18/2019 21:38:10" order-index="13" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="930" y1="210" x2="1027" y2="210" start-border-pos="0.3725" end-border-pos="0.927734375" name-position="0,0">
+              <points>
+                <point x="930" y="210" />
+                <point x="1027" y="210" />
+              </points>
+            </layout>
+            <relation from="di2f8501a660544f6a9241cad48d9839d96514" from-iid="56181790ee72486eb3c64aa8f37f79b7" to="7edb3142a5714523887db9acbd8f5ef9" to-iid="0ff60f8623a74b32bf9fa3badb9a8ad7" />
+          </item>
+          <item id="2150bbe80e9d44d692f9f33d8a2d7da9" iid="1afbd696751f405fa246cdd212cb070a" creation-date="09/18/2019 21:38:16" order-index="14" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="true" lock-to-fields="false" auto-path="" x1="293" y1="210" x2="495" y2="210" start-border-pos="0.37" end-border-pos="0.8775" name-position="0,0">
+              <points>
+                <point x="293" y="210" />
+                <point x="495" y="210" />
+              </points>
+            </layout>
+            <relation from="d71ad76d8df84828a4bb354027698a5c" from-iid="e7364b92e8164786a51cc8b75f1d773f" to="201e9641b6754c038c2634ed1c57824d" to-iid="a055ff8d3fb744e792e771ad74802f2e" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
