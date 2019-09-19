@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public delegate void SwitchState(States states);
+public delegate void SwitchState(States _states);
 
 public interface IState
 {

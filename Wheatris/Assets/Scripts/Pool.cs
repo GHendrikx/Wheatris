@@ -18,14 +18,14 @@ public class Pool : Singleton<Pool>
     {
         foreach (Transform child in children)
         {
-            T component = child.GetComponent<T>();
+            T _component = child.GetComponent<T>();
 
-            if (component != null)
+            if (_component != null)
             {
 
                 child.transform.parent = null;
                 children.Remove(child.transform);
-                return component;
+                return _component;
             }
         }
         return default(T);
