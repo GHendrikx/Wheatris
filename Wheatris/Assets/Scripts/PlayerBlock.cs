@@ -4,13 +4,18 @@ using UnityEngine;
 
 public class PlayerBlock : Block
 {
-    // Start is called before the first frame update
+    /// <summary>
+    /// Object Subscribe to the Movement delegates. 
+    /// </summary>
     protected override void Start()
     {
         InputManager.Instance.horizontalMovement += Move;
         InputManager.Instance.rotateMovement += Rotate;
     }
 
+    /// <summary>
+    /// For performance optimizing
+    /// </summary>
     protected override void OnBecameInvisible()
     {
         gameObject.SetActive(false);
@@ -21,6 +26,10 @@ public class PlayerBlock : Block
     {
         base.Update();
     }
+
+    /// <summary>
+    /// unsubscribing to the event when the block collide with the ground.
+    /// </summary>
     public override void OnCollisionEnter(Collision _coll)
     {
         base.OnCollisionEnter(_coll);

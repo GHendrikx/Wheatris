@@ -48,7 +48,9 @@ public abstract class Block : MonoBehaviour, IDamagable
             Pool.Instance.ReturnObjectToPool<Block>(this);
     }
 
-
+    /// <summary>
+    /// Falling gravity
+    /// </summary>
     private void Fall()
     {
         myRb.AddForce(Vector3.down * gravityModifier);

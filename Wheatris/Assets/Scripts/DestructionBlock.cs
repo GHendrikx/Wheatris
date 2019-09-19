@@ -22,6 +22,9 @@ public class DestructionBlock : Block
     [SerializeField]
     private int[] randomXPositionRange;
 
+    /// <summary>
+    /// Setting AI to a random X position and setting all the begin variables.
+    /// </summary>
     protected override void Start()
     {
         int _randomXPosition = Random.Range(randomXPositionRange[0], randomXPositionRange[1]);
@@ -46,6 +49,10 @@ public class DestructionBlock : Block
         }
     }
 
+    /// <summary>
+    /// returning object to the pool updating the score if it hit something.
+    /// </summary>
+    /// <param name="_coll"></param>
     public override void OnCollisionEnter(Collision _coll)
     {
         IDamagable _damagable = _coll.gameObject.GetComponent<IDamagable>();
@@ -63,11 +70,14 @@ public class DestructionBlock : Block
         }
     }
 
+    /// <summary>
+    /// Returning to pool
+    /// </summary>
     protected override void OnBecameInvisible()
     {
         Pool.Instance.ReturnObjectToPool<DestructionBlock>(this);
     }
-
+    
     private float Timer()
     {
         return timer -= Time.deltaTime;

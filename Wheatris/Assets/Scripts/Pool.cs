@@ -31,6 +31,11 @@ public class Pool : Singleton<Pool>
         return default(T);
     }
 
+    /// <summary>
+    /// Return Object to the pool
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
+    /// <param name="_component"></param>
     public void ReturnObjectToPool<T>(T _component) where T : MonoBehaviour
     {
         _component.gameObject.SetActive(false);
