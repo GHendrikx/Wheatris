@@ -10,11 +10,11 @@ public class PlayState : IState
 
     public void Enter()
     {
-        Exit();
+        SceneManager.LoadScene(1);
     }
 
     public void Exit()
     {
-        SceneManager.LoadScene(1);
+        
     }
 }
